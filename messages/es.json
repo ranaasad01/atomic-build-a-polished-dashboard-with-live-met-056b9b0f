@@ -1,0 +1,327 @@
+{
+  "nav": {
+    "dashboard": "Panel de control",
+    "analytics": "Análisis",
+    "settings": "Configuración"
+  },
+  "settings": {
+    "preferences": {
+      "dateRangeDesc": "Establece tu período de tiempo preferido",
+      "dateRangeTitle": "Rango de fechas predeterminado",
+      "densityComfortable": "Cómodo",
+      "densityCompact": "Compacto",
+      "densityDefault": "Predeterminado",
+      "densityDesc": "Ajusta el espaciado y diseño",
+      "densityTitle": "Densidad de visualización",
+      "kpiDesc": "Selecciona las métricas a mostrar por defecto",
+      "kpiTitle": "KPIs predeterminados",
+      "range1y": "Último año",
+      "range30d": "Últimos 30 días",
+      "range7d": "Últimos 7 días",
+      "range90d": "Últimos 90 días",
+      "themeDark": "Oscuro",
+      "themeDesc": "Elige la apariencia de tu panel de control",
+      "themeLight": "Claro",
+      "themeSystem": "Sistema",
+      "themeTitle": "Tema"
+    },
+    "integrations": {
+      "connect": "Conectar",
+      "connected": "Conectado",
+      "disconnect": "Desconectar",
+      "disconnected": "Desconectado",
+      "subtitle": "Conecta fuentes de datos para potenciar tus métricas"
+    },
+    "notifications": {
+      "criticalHint": "Recibe notificaciones urgentes inmediatamente",
+      "criticalToggle": "Alertas críticas",
+      "deliveryDesc": "Elige cómo deseas recibir notificaciones",
+      "deliveryTitle": "Método de entrega",
+      "digestHint": "Recibe un resumen diario de alertas",
+      "digestToggle": "Resumen",
+      "emailHint": "Envía alertas a tu correo electrónico",
+      "emailToggle": "Correo electrónico",
+      "inAppHint": "Muestra alertas en tu panel de control",
+      "inAppToggle": "En la aplicación",
+      "revenueDropHint": "Alerta cuando los ingresos caen por debajo del umbral",
+      "revenueDropLabel": "Caída de ingresos",
+      "thresholdsDesc": "Recibe notificaciones cuando las métricas clave cruzan tus límites",
+      "thresholdsTitle": "Umbrales de alerta",
+      "userSpikeHint": "Alertar cuando la actividad del usuario excede el límite",
+      "userSpikeLabel": "Pico de Usuarios"
+    },
+    "heading": "Configuración",
+    "subheading": "Administra tu panel y preferencias",
+    "tabs": {
+      "integrations": "Integraciones",
+      "notifications": "Notificaciones",
+      "preferences": "Preferencias"
+    },
+    "header": [
+      "Preferences — theme, density, default date range, and visible KPIs",
+      "Integrations — connect or disconnect data sources like Supabase",
+      "Notifications — configure alert thresholds and delivery rules"
+    ]
+  },
+  "footer": {
+    "nav": "Navegación",
+    "status": "Estado del Sistema",
+    "copyright": "Creado para equipos de producto.",
+    "live": "Todos los sistemas en línea"
+  },
+  "header": [
+    "Live data — last synced just now",
+    "Date range: Last 30 days · Change in filter bar",
+    "3 unread notifications — revenue threshold exceeded",
+    "Avatar: Alex Rivera · Senior Product Analyst"
+  ],
+  "kpi-cards": [
+    {
+      "label": "Monthly Recurring Revenue",
+      "value": "$284,310",
+      "change": "+12.4% vs last month",
+      "changeType": "up",
+      "trend": "up",
+      "isLive": true
+    },
+    {
+      "label": "Active Users",
+      "value": "18,942",
+      "change": "+7.1% vs last month",
+      "changeType": "up",
+      "trend": "up",
+      "isLive": true
+    },
+    {
+      "label": "Conversion Rate",
+      "value": "4.38%",
+      "change": "−0.6 pp vs last month",
+      "changeType": "down",
+      "trend": "down",
+      "isLive": true
+    },
+    {
+      "label": "Avg. Session Duration",
+      "value": "6m 42s",
+      "change": "+1m 08s vs last month",
+      "changeType": "up",
+      "trend": "up",
+      "isLive": true
+    },
+    {
+      "label": "Churn Rate",
+      "value": "1.9%",
+      "change": "−0.3 pp vs last month",
+      "changeType": "down",
+      "trend": "down",
+      "isLive": true
+    },
+    {
+      "label": "New Sign-ups Today",
+      "value": "347",
+      "change": "+23% vs yesterday",
+      "changeType": "up",
+      "trend": "up",
+      "isLive": true
+    }
+  ],
+  "charts": [
+    {
+      "title": "Revenue Over Time",
+      "type": "area",
+      "description": "30-day cumulative MRR trend — steady climb from $231K to $284K with a mid-month acceleration spike"
+    },
+    {
+      "title": "Active Users — Daily Unique",
+      "type": "line",
+      "description": "Registered Users vs Guest Sessions over 30 days"
+    },
+    {
+      "title": "Signups by Acquisition Channel",
+      "type": "bar",
+      "description": "Organic leads at 1,840 · Paid at 1,210 · Referral at 890 · Direct at 640 · Social at 420"
+    },
+    {
+      "title": "Conversion Funnel by Week",
+      "type": "bar",
+      "description": "Visitors → Trial Starts → Paid Conversions across the last 4 weeks"
+    },
+    {
+      "title": "Session Duration Distribution",
+      "type": "area",
+      "description": "Peak density at 4–7 min range"
+    }
+  ],
+  "recent-activity": [
+    {
+      "emoji": "🟢",
+      "text": "Jordan Kim upgraded from Starter to Pro",
+      "time": "2 minutes ago",
+      "type": "upgrade"
+    },
+    {
+      "emoji": "🔔",
+      "text": "Revenue alert: MRR crossed $280K threshold",
+      "time": "6 minutes ago",
+      "type": "alert"
+    },
+    {
+      "emoji": "🆕",
+      "text": "Priya Nair signed up via Organic Search",
+      "time": "9 minutes ago",
+      "type": "signup"
+    },
+    {
+      "emoji": "🟢",
+      "text": "Marcus Webb upgraded from Pro to Enterprise",
+      "time": "14 minutes ago",
+      "type": "upgrade"
+    },
+    {
+      "emoji": "🔴",
+      "text": "Churn detected: DataSync Co. cancelled Pro plan",
+      "time": "21 minutes ago",
+      "type": "churn"
+    },
+    {
+      "emoji": "🆕",
+      "text": "Lena Hoffmann signed up via Referral (loomly.com)",
+      "time": "28 minutes ago",
+      "type": "signup"
+    },
+    {
+      "emoji": "🔔",
+      "text": "Active users spike: +340 concurrent sessions detected",
+      "time": "35 minutes ago",
+      "type": "alert"
+    },
+    {
+      "emoji": "🟢",
+      "text": "Carlos Mendez upgraded from Free to Starter",
+      "time": "41 minutes ago",
+      "type": "upgrade"
+    },
+    {
+      "emoji": "🆕",
+      "text": "Aisha Okonkwo signed up via Paid Ads (Google)",
+      "time": "47 minutes ago",
+      "type": "signup"
+    },
+    {
+      "emoji": "🔴",
+      "text": "Error rate spike: API /v2/metrics returned 503 × 12",
+      "time": "52 minutes ago",
+      "type": "error"
+    }
+  ],
+  "analytics": {
+    "header": [
+      "Live data — metrics refresh every 5 seconds via simulated stream",
+      "Drill down by region, channel, or cohort with a single click",
+      "Export any table or chart as CSV or PNG"
+    ],
+    "date-range-picker": [
+      {
+        "label": "Last 7 days",
+        "value": "7d",
+        "description": "Rolling window ending today"
+      },
+      {
+        "label": "Last 30 days",
+        "value": "30d",
+        "description": "Default view, month-over-month comparable"
+      },
+      {
+        "label": "Last 90 days",
+        "value": "90d",
+        "description": "Quarterly trend analysis"
+      },
+      {
+        "label": "Last 12 months",
+        "value": "12m",
+        "description": "Full-year performance arc"
+      },
+      {
+        "label": "Custom range",
+        "value": "custom",
+        "description": "Pick any start and end date from the calendar"
+      }
+    ],
+    "metrics-breakdown": [
+      {
+        "metric": "Monthly Recurring Revenue (MRR)",
+        "breakdown": "By plan tier",
+        "detail": "Starter $12.4K · Pro $38.1K · Enterprise $61.7K"
+      },
+      {
+        "metric": "Active Users",
+        "breakdown": "By region",
+        "detail": "North America 42% · Europe 31% · APAC 18% · Rest of World 9%"
+      },
+      {
+        "metric": "Conversion Rate",
+        "breakdown": "By acquisition channel",
+        "detail": "Organic Search 4.8% · Paid Social 2.3% · Direct 6.1% · Referral 5.4%"
+      },
+      {
+        "metric": "Churn Rate",
+        "breakdown": "By cohort month",
+        "detail": "Jan 1.2% · Feb 0.9% · Mar 1.5% · Apr 0.7% · May 1.1%"
+      },
+      {
+        "metric": "Average Session Duration",
+        "breakdown": "By device",
+        "detail": "Desktop 4m 32s · Mobile 2m 18s · Tablet 3m 05s"
+      },
+      {
+        "metric": "Feature Adoption",
+        "breakdown": "Top 5 features by weekly active usage",
+        "detail": "Dashboards 78% · Reports 61% · Alerts 44% · Exports 39% · API 27%"
+      }
+    ],
+    "data-tables": [
+      {
+        "title": "Top Accounts by MRR",
+        "description": "Sortable by any column, filterable by plan and status"
+      },
+      {
+        "title": "Acquisition Sources",
+        "description": "Default sort: Revenue Attributed (desc)"
+      },
+      {
+        "title": "Event Log",
+        "description": "Searchable by event name or user ID, paginated at 25 rows"
+      },
+      {
+        "title": "Cohort Retention Table",
+        "description": "Signup month rows × Week 0–12 retention columns, heat-coded"
+      },
+      {
+        "title": "Feature Usage by Account",
+        "description": "Sparkline in Trend column, filterable by feature name"
+      }
+    ],
+    "comparison-charts": [
+      {
+        "title": "MRR Trend",
+        "description": "Current 30 days vs. Previous 30 days — +18.4% period-over-period lift"
+      },
+      {
+        "title": "New Signups by Channel",
+        "description": "Organic, Paid Social, Referral, Direct — current vs prior period"
+      },
+      {
+        "title": "Conversion Funnel",
+        "description": "Visitor → Trial → Activated → Paid with prior-period ghost bars"
+      },
+      {
+        "title": "Churn vs. Expansion Revenue",
+        "description": "Churned MRR overlaid with Expansion MRR — net revenue retention at a glance"
+      },
+      {
+        "title": "Session Volume Heatmap",
+        "description": "7-day × 24-hour grid — Tuesday 10–11 AM is peak engagement window"
+      }
+    ]
+  }
+}
